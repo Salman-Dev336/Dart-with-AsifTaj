@@ -4,9 +4,14 @@ void main() {
 
   bool result;
   result = x < y;
+  print(result);
 
   if (x < y) {
     print("yes x is less then y");
   }
+  result = x > y;
   print(result);
+  if (x > y) {
+    print("yes x is greater then y");
+  }
 }
