@@ -14,4 +14,9 @@ void main() {
   if (x > y) {
     print("yes x is greater then y");
   }
+
+  String name = 'salman';
+  if (name == 'salman') {
+    print("yes i am salman");
+  }
 }
