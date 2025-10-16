@@ -12,5 +12,8 @@ void main() {
   ];
   for (int i = 0; i < items.length; i++) {
     print('items is : ${items[i]}');
+
+    //reverse printing list
+    print(items.reversed.toList());
   }
 }
