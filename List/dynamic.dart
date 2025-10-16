@@ -12,8 +12,11 @@ void main() {
   ];
   for (int i = 0; i < items.length; i++) {
     print('items is : ${items[i]}');
-
-    //reverse printing list
-    print(items.reversed.toList());
   }
+  //reverse printing list
+  print(items.reversed.toList());
+
+  //remove last item
+  items.removeLast();
+  print('after removing last item : ${items}');
 }
