@@ -1,17 +1,9 @@
 void main() {
-  List<int> numbers = [1, 2, 3, 4, 5];
-  print(numbers[1]);
-  print(numbers.length);
-  numbers.add(5);
-  print(numbers);
-  numbers.remove(5);
-  print(numbers);
-
-  for (int i = 0; i < numbers.length; i++) {
-    print('numbers is : ${numbers[i]}');
-  }
+  List<int> age = [22, 27, 30];
   List<String> names = ['salman', 'mashal', 'abdullah'];
-  for (int j = 0; j < names.length; j++) {
-    print('names is : ${names[j]}');
+  List<bool> values = [true, false, true];
+
+  for (int i = 0; i < age.length; i++) {
+    print('name is : ${names[i]}, age is : ${age[i]}, valus is : ${values[i]}');
   }
 }
