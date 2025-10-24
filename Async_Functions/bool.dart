@@ -1,5 +1,5 @@
 void main() {
-  test().then((value) => print('the value is $value'));
+  test().then((value) => print(value));
 }
 
 Future<bool> test() async {
