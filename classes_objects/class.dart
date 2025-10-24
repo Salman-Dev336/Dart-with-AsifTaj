@@ -1,5 +1,5 @@
 class Person {
-  String name = 'salman';
+  String? name;
   int age = 22;
   String country = 'pakistan';
 
@@ -10,5 +10,6 @@ class Person {
 
 void main() {
   Person person = Person();
+  person.name = 'salman';
   person.display();
 }
