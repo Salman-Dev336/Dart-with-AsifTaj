@@ -4,4 +4,6 @@ void main() {
   print(map['name']);
   print(map['age']);
   print(map['profession']);
+  map.addAll({'country': 'pakistan', 'state': 'kpk'});
+  print(map);
 }
